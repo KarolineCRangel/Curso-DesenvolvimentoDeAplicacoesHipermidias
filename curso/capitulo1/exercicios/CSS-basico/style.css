@@ -1,0 +1,17 @@
+main{
+    background: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80) no-repeat center;
+    background-size: cover;
+}
+
+main h1{
+    font-family: cursive;
+}
+
+article{
+    background-color: rgba(246, 231, 213, 0.616);
+}
+
+article p{
+    color: rgb(32, 32, 32);
+    text-align: right;
+}
