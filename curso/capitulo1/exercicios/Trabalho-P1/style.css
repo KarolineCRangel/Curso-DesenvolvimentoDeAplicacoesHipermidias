@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    float: inline;
+    font-size: 0.8em;
+    padding-right: 10px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+a:hover{
+    color: whitesmoke;
+}
+
+nav{
+    background: #FFB04A;
+    grid-area: nav;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items:center;
+    height: 30px;
+}
+
+header{
+    background: #F3F3F3;
+    grid-area: header;
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+header img{
+    padding-left: 100px;
+}
+
+header .form{
+    display: flex;
+    padding:  30px 0 30px 30px;
+}
+
+header input{
+    border: 2px solid #FFB04A;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-left: -5px;
+}
+
+header button{
+    border: 1px solid #393737;
+}
+
+header button:hover{
+    color: #FFB04A;
+}
+
+header label{
+    font-size: 14px;
+    color: #393737;
+    margin-right: 10px;
+    height: 25px;
+    width: 100px;
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+header .title{
+    display: flexbox;
+    text-align: center;
+    font-family: 'Encode Sans SC', sans-serif;
+    width: 500px;
+    padding-left: 80px;
+    margin: 0 20px;
+    align-self: center;
+
+}
+
+header .subtitle{
+    margin-top: -20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.2em;
+}
+
+.content1{
+    border-right: 3px solid #393737;
+    border-right-width: thin;
+    margin: 20px 0 20px 0;
+    grid-area: c1;
+    font-family: 'Encode Sans SC', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.content1 .img1{
+    margin-bottom: 10px;
+}
+
+#menu{
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    width: 190px;
+    height: 30px;
+    background-color: #F3F3F3;
+    border: 2px solid #393737;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#menu:hover{
+    background-color: #FFB04A;
+}
+
+
+.content2{
+    border-right: 3px solid #393737;
+    border-right-width: thin;
+    margin: 20px 0 20px 0;
+    grid-area: c2;
+    text-align: center;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.content2 h3{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: auto;
+}
+
+.info1{
+    height: 200px;
+    background: #f3f3f3;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.info1 img{
+    float:left;
+    margin-left: 20px;
+}
+
+.info1 p{
+    margin-top: 0px;
+    margin-left: -10px;
+    display:inline-flex;
+    align-self: center;
+    text-align: left;
+    max-width: 400px;
+}
+
+.note{
+    display: block;
+    margin-top: 40px;
+    margin-left: -195px;
+}
+
+.info2{
+    background-color: #f3f3f3;
+    margin: 10px 10px 20px 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.info2 a{
+    display: inline-block;
+    text-align: left;
+}
+
+.info2 a:hover{
+    color: #FFB04A;
+}
+
+
+.content3{
+    margin: 20px 0 20px 0;
+    grid-area: c3;
+    text-align: center;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.info3{
+    margin-bottom: 30px;
+}
+.text{
+    position: absolute;
+    background-color: rgba(253, 207, 147, 0.459);
+    width: 100px;
+    margin-top: -28px;
+    margin-left: 150px;
+}
+
+.text:hover{
+    color: lightgray;
+}
+
+.info4{
+    text-align: left;
+    margin-left: 55px;
+}
+.info4 p{
+    margin-left: 10px;
+    max-width: 100px;
+    display: inline-block;
+}
+
+.info4 p:hover{
+    color:#FFB04A;
+}
+
+footer{
+    margin-top: -15px;
+    padding-right: 10px;
+    background: #FFB04A;
+    grid-area: footer;
+}
+
+footer p{
+    display: block;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+#txt{
+    position: relative;
+    font-family: 'Satisfy', cursive;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+
+#txt2{
+    float: right;
+    margin-top: -50px;
+    font-size: 14px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 5vh 20vh 70vh 5vh; 
+    grid-template-areas: "nav nav nav"
+                         "header header header"
+                         "c1 c2 c3"
+                         "footer footer footer";
+}
