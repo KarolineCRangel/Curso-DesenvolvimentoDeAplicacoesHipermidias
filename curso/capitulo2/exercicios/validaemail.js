@@ -3,7 +3,7 @@ function validateEmail(email) {
     return re.test(email);
   }
       
-  console.log(validateEmail('texto@texto.com')); 
-  console.log(validateEmail('texto@texto')); 
-  console.log(validateEmail('texto.com')); 
-  console.log(validateEmail('texto'));
+  console.log(validateEmail('karoline@gmail.com')); 
+  console.log(validateEmail('karolinr@gmail')); 
+  console.log(validateEmail('gmail.com.com')); 
+  console.log(validateEmail('gmail'));
