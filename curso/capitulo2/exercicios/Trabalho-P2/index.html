@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Trabalho-P2</title>
+</head>
+
+<body>
+
+    <h2>Reserva</h2>
+    <div class="container">
+        <form>
+
+            <label for="q">Nome:</label>
+            <input id="name" type="text" name="q" required>
+            <label for="q">Telefone:</label>
+            <input id="phone" type="text" name="q" required>
+            <label for="q">Data de chegada:</label>
+            <input id="datec" type="date" name="q">
+            <label for="q">Data de saída:</label>
+            <input id="dates" type="date" name="q">
+            <label for="q">Tipo de quarto:</label>
+            <select id="quarto">
+                <option>Single</option>
+                <option>Double</option>
+                <option>Triple</option>
+            </select>
+            <label for="busca">Quantidade de crianças menores que 5 anos:</label>
+            <select id="child">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+
+            <button id="reservation" type="submit" onclick="hotel()">Reservar</button>
+        </form>
+    </div>
+
+
+    <script type="text/javascript" src="function.js"></script>
+</body>
+
+</html>

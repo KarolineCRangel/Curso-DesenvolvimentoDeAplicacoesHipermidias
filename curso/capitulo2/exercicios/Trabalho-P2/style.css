@@ -1,0 +1,29 @@
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+h2{
+    text-align: center;
+    padding-left: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+}
+
+input, select{
+    margin-bottom: 10px;
+}
+
+label{
+    text-align: left;
+    margin-bottom: 5px;
+}
